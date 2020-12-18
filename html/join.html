@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <html>
+        <head>
+                <title> 회원가입</title>
+                <meta charset = "utf-8">
+                <link rel="stylesheet" href="../css/register.css"/>
+        </head>
+        <body>
+          <!--회원가입 폼-->
+                <form action = "../php/join.php" method="post">
+                  <div class  ="inputBox" >
+
+                  <h2> welcome! </h2>
+                    <label for="name">Name :</label>
+                    <input type="text" id="name" name="name" required/>
+                    <br>
+                    <label for="id">ID :</label>
+                    <input type="text" name="id" id="id" pattern="^[A-Za-z0-9]{6,15}" required />
+                    <br>
+                    <label for="pw">PW : </label>
+                    <input type="password" name="pw" id="pw" pattern= "^.*(?=^.{8,15}$)(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&+=]).*" required/>
+
+                      <br>
+                      <br>
+                      <input type="submit" value="ok"/>
+
+              </div>
+        </body>
+</html>

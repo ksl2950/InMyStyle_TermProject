@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@font-face {
+    font-family: 'TmoneyRoundWindExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+  background-image: url("../images/background2.jpg");
+}
+.div_top{
+  text-align:center;
+  font-size: 22px;
+  margin-left: -20px;
+  font-family: 'Courgette', cursive;
+
+}
+.div_top img{
+  transform:rotate(20deg);
+}
+.body_div{
+  background-color: white;
+  margin-left: 225px;
+  text-align: center;
+  width: 900px;
+  height: 800px;
+  border-radius: 20px;
+}
+#simple , #modern , #casual, #lovely{
+  position: relative;
+  font-size: 13px;
+  text-align: center;
+  weight:500px;
+  height: 300px;
+  opacity: 0;
+}
+#simple:target{
+  opacity: 1;
+}
+#modern:target{
+  opacity: 1;
+}
+#casual:target{
+  opacity: 1;
+}
+#lovely:target{
+  opacity: 1;
+}
+#shoppingmall_body{
+  width: 700px;
+}
+p{
+    font-family: 'TmoneyRoundWindExtraBold';
+}
+.shoppingmall_icon{
+  float: left;
+  padding: 35px;
+  position: relative;
+  left: 140px;
+  font-family: 'TmoneyRoundWindExtraBold';
+}
+.shoppingmall_icon img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border: 5px solid #E0DBDB;
+}
+.shoppingmall_icon img:hover{
+  border: 5px solid pink;
+}
+
+.style_btn{
+  background-color: #B0E9F7;
+  margin-left: 50px;
+  width: 100px;
+  padding: 10px;
+  border: none;
+  font-family: 'TmoneyRoundWindExtraBold';
+  position: relative;
+  left: -10px;
+}
+div.menu {
+    font-family: 'Courgette', cursive;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+div.menu ul{
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  background-color: black;
+  border-radius: 10px;
+}
+li.menu_btn{
+  float: left;
+  background-color: black;
+  text-align: center;
+  padding: 5px;
+  display: block;
+  color: white;
+  word-spacing: 20px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}

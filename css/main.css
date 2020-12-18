@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body{
+  background-image: url("../images/background2.jpg");
+}
+#user{
+  margin-left : 1180px;
+  font-family: 'Courgette';
+  font-weight: bold;
+
+}
+#logout{
+  position: relative;
+  margin-left : 1280px;
+  font-family: 'Courgette';
+  font-weight: bold;
+  top: -40px;
+}
+.div_register{
+  height: 50px;
+}
+#login_btn{
+  margin-left : 1200px;
+  font-family: 'Courgette';
+  font-weight: bold;
+}
+#join_btn{
+  margin-top: -37px;
+  margin-left : 1280px;
+  font-family: 'Courgette';
+  font-weight: bold;
+
+}
+.div_top{
+  text-align:center;
+  font-size: 22px;
+  margin-left: -20px;
+  margin-top: -60px;
+  font-family: 'Courgette', cursive;
+}
+.div_top img{
+  transform:rotate(20deg);
+}
+
+div.search{
+  text-align: center;
+  margin-left: -30px;
+}
+
+input.search_txt{
+  border: none;
+  width: 250px;
+  border-bottom: 2px solid ;
+  margin-right: 10px;
+  font-family:TmoneyRoundWindExtraBold;
+  padding: 5px;
+  color:#A4A4A4;
+}
+.search_btn {
+   background: url( "../images/search.png" );
+   cursor: pointer;
+}
+#banner{
+  text-align: center;
+  margin-left: -30px;
+}
+img.banner{
+  border-radius: 10px;
+}
+div.menu {
+    font-family: 'Courgette', cursive;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    color: white;
+}
+div.menu ul{
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  background-color: black;
+  border-radius: 10px;
+}
+li.menu_btn{
+  float: left;
+  background-color: black;
+  text-align: center;
+  padding: 5px;
+  display: block;
+  color: white;
+  word-spacing: 20px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.banner_img{
+  margin-left:26%;
+}
+#banner_1{
+  width:400px;
+  height: 280px;
+  float: left;
+  margin-right: 30px;
+  margin-left:23%;
+  border-radius: 20px;
+}
+#banner_2{
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+}
+#banner_3{
+  position: relative;
+  top: -90px;
+  width: 320px;
+  height: 400px;
+  margin-left:23%;
+  border-radius: 20px;
+  float: left;
+}
+#banner_4{
+  position: relative;
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 380px;
+  height: 350px;
+  border-radius: 20px;
+}
+#home_icon{
+  position: relative;
+  top:-10px;
+  left: -395px;
+  width:70px;
+  height:70px;
+}

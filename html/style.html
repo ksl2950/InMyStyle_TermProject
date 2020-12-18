@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/shoppingmall.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>shoppingmall</title>
+  </head>
+  <body>
+    <div class="div_top" >
+      <h1> In my style
+        <img id="profile" src="../images/pageIcon.png" alt="profile" width="50" >
+      </h1>
+    </div>
+
+    <div class="menu">
+      <ul>
+        <li class="menu_btn"><a href="../php/main.php">HOME </a> |</li>
+        <li class="menu_btn"><a href="style.html"> clothes </a>|</li>
+        <li class="menu_btn"><a href="#"> styleshare </a>|</li>
+        <li class="menu_btn"><a href="shoppingmall.html"> shoppingmall </a></li>
+      </ul>
+      </div>
+      <br><br>
+    <div class="popUp" id="popUp">
+      <label for="season">계절 선택: </label>
+      <select id="season" name="season">
+        <option value="봄">봄</option>
+        <option value="여름">여름</option>
+        <option value="가을">가을</option>
+        <option value="겨울">겨울</option>
+      </select>
+      <br>
+      <label for="kinds">종류: </label>
+      <input type="radio" id="outer" name="cloths" value="outer">
+      <label for="outer">아우터</label>
+      <input type="radio" id="top" name="cloths" value="top">
+      <label for="top">상의</label>
+      <input type="radio" id="skirts" name="cloths" value="knit">
+      <label for="skirts">치마</label>
+      <input type="radio" id="pants" name="cloths" value="pants">
+      <label for="pants">바지</label>
+      <input type="radio" id="dress" name="cloths" value="dress">
+      <label for="dress">원피스</label>
+      <br>
+      키워드 : <input type="text" name="" value="">
+      <br>
+      <button type="button" name="button">확인</button>
+    </div>
+    <div class="body_div">
+      <br>
+      <span>어떤 옷을 찾고 계신가요? &nbsp 아이콘을 눌러보세요!</span>
+      <a href="#popUp"><img id="present" src="../images/searchstyle.png" alt="style"></a>
+      <hr width = "80%" color = "#C5C9CA">
+      <div class="style_body">
+      <div id="image_1" class="image">
+          <img class = sample id=sample1 src="../images/clothes/sample1.jpg" alt="">
+          <p>골지 도톰한 랩 브이 니트</p>
+
+      </div>
+      <div id="image_2" class="image">
+            <img class = sample id=sample2 src="../images/clothes/sample2.jpg" alt="">
+              <p>티라미슈체크플리츠sk</p>
+              <!--메롱샵-->
+      </div>
+      <div id="image_3" class="image">
+          <img class = sample id=sample3 src="../images/clothes/sample3.gif" alt="">
+            <p>하이넥 웰론 패딩</p>
+              <!--기프티박스-->
+      </div>
+      <div id="image_4" class="image">
+          <img class = sample id=sample4 src="../images/clothes/sample4.jpg" alt="">
+            <p>제티 아가일 니트 후드집업</p>
+            <!--98도씨-->
+      </div>
+      <div id="image_5" class="image">
+            <img class = sample id=sample5 src="../images/clothes/sample5.jpg" alt="">
+              <p>핀턱일자기모PT</p>
+              <!--스타일난다-->
+      </div>
+      <div id="image_6" class="image">
+            <img class = sample id=sample5 src="../images/clothes/sample6.jpg" alt="">
+              <p>블룸 꽈배기 라운드 가디건</p>
+              <!--데일리쥬-->
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
