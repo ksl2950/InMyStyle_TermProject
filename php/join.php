@@ -37,7 +37,7 @@ if ($flag == 0){ //플래그가 0 이면 중복이 되지 않은 것임
 
 ?>
 <p>회원가입이 완료되었습니다!</p>
-<button type="button" name="button" onclick="location.href='../php/main.php'">홈으로 이동</button>
+<button type="button" name="button" onclick="location.href='../html/main.php'">홈으로 이동</button>
 <?php } ?>
 
 </div>

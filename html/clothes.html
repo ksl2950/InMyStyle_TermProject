@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/shoppingmall.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>shoppingmall</title>
+  </head>
+  <body>
+    <!-- 사이트 로고 -->
+    <div class="div_top" >
+      <h1> In my style
+        <img id="profile" src="../images/pageIcon.png" alt="profile" width="50" >
+      </h1>
+    </div>
+    <!-- 메뉴 -->
+    <div class="menu">
+      <ul>
+        <li class="menu_btn"><a href="main.php">HOME </a> |</li>
+        <li class="menu_btn"><a href="clothes.html"> clothes </a>|</li>
+        <li class="menu_btn"><a href="styleshare.php"> styleshare </a>|</li>
+        <li class="menu_btn"><a href="shoppingmall.html"> shoppingmall </a></li>
+      </ul>
+      </div>
+      <br><br>
+    <!-- 옷 검색하는 팝업창 -->
+    <div class="popUp" id="popUp">
+      <label for="season">계절 선택: </label>
+      <select id="season" name="season">
+        <option value="spring">봄</option>
+        <option value="summer">여름</option>
+        <option value="fall">가을</option>
+        <option value="winter">겨울</option>
+      </select>
+      <br>
+      <label for="kinds">종류: </label>
+      <input type="radio" id="outer" name="clothes" value="outer">
+      <label for="outer">아우터</label>
+      <input type="radio" id="top" name="clothes" value="top">
+      <label for="top">상의</label>
+      <input type="radio" id="skirts" name="clothes" value="skirts">
+      <label for="skirts">치마</label>
+      <input type="radio" id="pants" name="clothes" value="pants">
+      <label for="pants">바지</label>
+      <input type="radio" id="dress" name="clothes" value="dress">
+      <label for="dress">원피스</label>
+      <br>
+      키워드 : <input type="text" id="keyword" name="keyword" value="">
+      <br>
+      <button type="button" name="button" id="ok_btn">확인</button>
+    </div>
+    <!-- 옷 정보가 뜨는 div --> 
+    <div class="body_div">
+      <br>
+      <span>어떤 옷을 찾고 계신가요? &nbsp 아이콘을 눌러보세요!</span>
+      <a href="#popUp"><img id="present" src="../images/searchstyle.png" alt="style"></a>
+      <hr width = "80%" color = "#C5C9CA">
+      <div class="style_body">
+      <div class="image">
+          <img class = sample id='골지 도톰한 랩 브이 니트' src="../images/clothes/1.jpg" onclick='clickImage("골지 도톰한 랩 브이 니트")' alt="">
+          <p>골지 도톰한 랩 브이 니트</p>
+
+      </div>
+      <div class="image">
+            <img class = sample id='티라미슈체크플리츠sk' src="../images/clothes/2.jpg" onclick='clickImage("티라미슈체크플리츠sk")' alt="">
+              <p>티라미슈체크플리츠sk</p>
+              <!--메롱샵-->
+      </div>
+      <div class="image">
+          <img class = sample id='하이넥 웰톤 패딩' src="../images/clothes/3.jpg" onclick='clickImage("하이넥 웰톤 패딩")' alt="">
+            <p>하이넥 웰톤 패딩</p>
+              <!--기프티박스-->
+      </div>
+      <div class="image">
+          <img class = sample id='제티 아가일 니트 후드집업' src="../images/clothes/4.jpg" onclick='clickImage("제티 아가일 니트 후드집업")' alt="">
+            <p>제티 아가일 니트 후드집업</p>
+            <!--98도씨-->
+      </div>
+      <div class="image">
+            <img class = sample id='핀턱일자기모PT' src="../images/clothes/5.jpg" onclick='clickImage("핀턱일자기모PT")' alt="">
+              <p>핀턱일자기모PT</p>
+              <!--스타일난다-->
+      </div>
+      <div class="image">
+            <img class = sample id=sample5 src="../images/clothes/6.jpg" onclick='clickImage("블룸 꽈배기 라운드 가디건")' alt="">
+              <p>블룸 꽈배기 라운드 가디건</p>
+              <!--데일리쥬-->
+      </div>
+      </div>
+    </div>
+    <script src="../js/search_clothes.js"></script>
+  </body>
+</html>

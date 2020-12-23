@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'TmoneyRoundWindRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+  background-image: url("../images/background2.jpg");
+  text-align: center;
+}
+section{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.item_div{
+  background-color: white;
+  width: 600px;
+  height: 550px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-280px;
+  margin-left:-300px;
+  border-radius: 10px;
+  font-family: 'TmoneyRoundWindRegular';
+}
+img.sample{
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+}
+.image{
+  position: relative;
+  top: 50px;
+}
+.info{
+  position: relative;
+  top: 60px;
+}

@@ -27,7 +27,7 @@
           echo $_SESSION['userName']."님 환영합니다!";
           ?>
           <br>
-          <a href="../php/main.php">홈으로 이동</a>
+          <a href="../html/main.php">홈으로 이동</a>
 
           <?php break;
         }
@@ -35,7 +35,7 @@
     }
   }
   if($flag==0){ //플래그가  0인경우 로그인 실패
-  echo "로그인 정보가 잘못되었습니다.  ";?>
+      echo "로그인 정보가 잘못되었습니다.";?>
   <br><br>
   <a href="../html/login.html">다시 로그인하기</a>&nbsp;&nbsp;
   <a href="../html/join.html">회원가입</a>
